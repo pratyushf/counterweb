@@ -1,0 +1,43 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color:rgba(0, 0, 0, 0.699);
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.background{
+  background-color: rgb(163, 240, 214);
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  border-radius: 10px;
+  border: 5px solid darkblue ;
+}
+
+.txt{
+  font-size: 3rem;
+  padding: 20px;
+}
+
+.controls{
+  padding: 20px;
+}
+
+#increment,#decrement{
+  width: 80px;
+  height: 40px;
+  font-size: 1.5rem;
+  margin: 10px;
+}
+
+#count{
+  font-size: 2rem;
+}
